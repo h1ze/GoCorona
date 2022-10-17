@@ -1,3 +1,25 @@
 /* font-family: 'Rubik', sans-serif; */
 /* font-family: 'Raleway', sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&family=Rubik:wght@400;700&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  color: #616161;
+}
+
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.container {
+  max-width: 1057px;
+  margin: 0 auto;
+}
