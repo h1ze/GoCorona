@@ -19,7 +19,7 @@ body {
   flex: 1 1 auto;
 }
 
-.container {
+.header__container {
   max-width: 1057px;
   margin: 0 auto;
 }
