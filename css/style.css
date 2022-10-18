@@ -19,7 +19,37 @@ body {
   flex: 1 1 auto;
 }
 
+.header {
+}
+
 .header__container {
+  display: flex;
   max-width: 1057px;
   margin: 0 auto;
+  min-height: 114px;
+  align-items: center;
+}
+
+.header__menu {
+  flex: 1 1 auto;
+}
+
+.header__button {
+  flex: 0 0 252px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu__list {
+  padding: 0;
+  list-style: none;
+}
+
+.menu__link {
+  text-decoration: none;
 }
