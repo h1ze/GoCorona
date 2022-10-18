@@ -48,8 +48,20 @@ body {
 .menu__list {
   padding: 0;
   list-style: none;
+  display: flex;
 }
 
 .menu__link {
   text-decoration: none;
+}
+
+.button {
+  padding: 12px 29px 16px 31px;
+  color: #fcfdfe;
+  border: none;
+  border-radius: 5px;
+}
+
+.button_blue {
+  background-color: #4285f4;
 }
