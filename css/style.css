@@ -15,6 +15,33 @@ body {
   min-height: 100vh;
 }
 
+[class*="__container"] {
+  max-width: 1087px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* PC */
+@media (max-width: 1087px) {
+  [class*="__container"] {
+    max-width: 970px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 991.98px) {
+  [class*="__container"] {
+    max-width: 750px;
+  }
+}
+
+/*Mobile*/
+@media (max-width: 767.98px) {
+  [class*="__container"] {
+    max-width: none;
+  }
+}
+
 .main {
   flex: 1 1 auto;
 }
@@ -29,8 +56,6 @@ body {
 
 .header__container {
   display: flex;
-  max-width: 1057px;
-  margin: 0 auto;
   min-height: 114px;
   align-items: center;
 }
